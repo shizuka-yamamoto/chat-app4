@@ -4,6 +4,5 @@ class RoomsController < ApplicationController
 	end
 
 	def create
-		Room.create(params[:id])
 	end
 end
